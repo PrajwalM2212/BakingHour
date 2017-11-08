@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="query_string">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="hare">hare</string>
+    <string name="textview">TextView</string>
+    <string name="favourite_recipe_ingredients">Favourite Recipe Ingredients</string>
+    <string name="favourite">Favourite</string>
+    <string name="no_network">No Network</string>
+    <string name="image">image</string>
+</resources>

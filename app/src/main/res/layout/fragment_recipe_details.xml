@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/exo_player_view"
+    />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:contentDescription="@string/image"
+        android:layout_height="300dp"
+        android:src="@drawable/bake"
+        android:id="@+id/recipe_image"
+        android:visibility="invisible"/>
+</FrameLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/steps"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/next_button"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:padding="10dp"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:id="@+id/previous_button"
+        android:visibility="visible"
+        android:padding="10dp"
+        android:layout_gravity="center"
+
+
+
+        />
+
+</LinearLayout>
+</ScrollView>
